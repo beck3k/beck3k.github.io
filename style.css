@@ -5,3 +5,8 @@ h1#Header {
 body{
   padding-top: 50px;
 }
+
+.content{
+  padding: 40px 15px;
+  text-align: center;
+}
