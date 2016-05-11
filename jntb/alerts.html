@@ -1,0 +1,81 @@
+<html lang="en">
+	<head>
+		<title>JNTB Tornado Weather</title>
+		<link href="css/bootstrap.css" rel="stylesheet">
+		<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+	<body style="font-size: 200%">
+		<nav class="navbar navbar-default">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="title-navigation-collapse" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#">JNTB Tornado</a>
+				</div>
+			
+			<div class="collapse navbar-collapse" id="title-navigation-collapse">
+					<ul class="nav navbar-nav">
+						<li><a href="#">About</a></li>
+						<li><a href="#">Radar</a></li>
+						<li><a href="#">Map</a></li>
+						<li class="active"><a href="#">Alerts</a></li>
+						<li><a href="#">Safety</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		
+			<div class="panel panel-default" style="float: left">
+				<div class="panel-heading">Alerts and Updates <span class="badge">2</span></div>
+				<div class="panel-body">
+					<p>There are 2 alerts</p>
+					<ul>
+						<li>A tornado watch</li>
+						<li>And a tornado update</li>
+					</ul>
+					<p><a href="#">View Radar</a> Current Tornado Statistics: </p>
+					<ul>
+						<li>Wind speed: <span style="background-color: orange;">132 mph</span></li>
+						<li>Currently Affected Areas:</li>
+						<ul style="background-color: red">
+							<li>Indianapolis</li>
+							<li>Greenwood</li>
+							<li>Bloomington<li>
+							<li>Brownsburg</li>
+						</ul>
+						<li>Approximate cost in damages: <span style="background-color: orange">1,250 USD</span><li>
+						<li>Approxomate time until tornado reaches your destification(based on IP)<span style="background-color: red;">7 Minutes<span></li>
+					</ul>
+				</div>
+				<div class="panel panel-primary">
+					<div class="panel-heading">Helpful Tips</div>
+					<div class="panel-body">
+						<p>The alerts show</p>
+						<ul>
+							<li>Wind Speed</li>
+							<li>Affected Areas</li>
+							<li>Expected Damages</li> 
+							<li>Time until danger zone is located in your area based on your IP</li>
+						</ul>
+						<p>EF SCALE</p>
+						<ul>
+							<li>EF-0= 65-85 mph winds</li>
+							<li>EF-1= 86-110 mph winds</li>
+							<li>EF-2= 111-135 mph winds</li>
+							<li>EF-3= 136-165 mph winds</li>
+							<li>EF-4= 166-200 mph winds</li>
+							<li>EF-5= 200+ mph winds</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+	</body>
+</html>	

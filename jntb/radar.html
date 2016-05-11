@@ -1,0 +1,57 @@
+<html lang="en">
+	<head>
+		<title>JNTB Tornado Weather</title>
+		<link href="css/bootstrap.css" rel="stylesheet">
+		<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+	<body style="font-size: 200%">
+		<nav class="navbar navbar-default">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="title-navigation-collapse" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#">JNTB Tornado</a>
+				</div>
+			
+			<div class="collapse navbar-collapse" id="title-navigation-collapse">
+					<ul class="nav navbar-nav">
+						<li><a href="#">About</a></li>
+						<li class="active"><a href="#">Radar</a></li>
+						<li><a href="#">Map</a></li>
+						<li><a href="#">Alerts</a></li>
+						<li><a href="#">Safety</a></li>
+					</ul>
+				<div>
+			</div>
+		</nav>
+		<div class="alert alert-warning"><b>Notice:</b> A tornado watch has been issued in some parts of Indiana <b>See below</b></div>
+		<div class="alert alert-danger"><b>Warning:</b> A tornado warning has been issued due to a tornado being spotted <b>See below</b> Be safe! <a href="#">Tornado Saftey and Preperation</a></div>
+		<div class="panel panel-primary">
+			<div class="panel-heading">
+				<div class="panel-title" style="text-align: center;">Radar</div>
+			</div>
+			<div class="panel-body">
+				<div class="panel panel-primary" style="width: 350px; overflow: auto; float: left;">
+					<div class="panel panel-heading">
+						<div class="panel-title" style="text-align: center;">Helpful Tips</div>
+					</div>
+					<div class="panel panel-body">
+						<li>The radar feature shows you which parts of Indiana are under a tornado watch or warning</li>
+						<li>The <span style="background-color: yellow;">Yellow</span> Area is under a tornado watch</li>
+						<li>The <span style="background-color: red;">Red</span> Area has a tornado warning and a tornado was been spotted</li>
+						<li>You will get an alert on your device if these are in your current location</li>
+					</div>
+				</div>
+				<img src="img/tornado-radar.png" style="float: right;" width="450" height="550"></img>
+			</div>
+		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+	</body>
+</html>	

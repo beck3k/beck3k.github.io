@@ -1,0 +1,32 @@
+a{
+ color: grey;
+ text-decoration: none;
+}
+a#title{
+ font-size: 24;
+}
+div#main{
+ 
+ top: 40%;
+ left: 40%;
+ position: fixed;
+ color: white;
+ background-color: #FF7400;
+ border-style: inset;
+ border-color: #FF7400;
+
+}
+body {
+ background-image: url("../img/navy_blue.png");
+
+}
+div#main-titlebar{
+ text-align: center;
+ border-style: inset;
+ border-color: #FF9944;
+
+}
+a#buttonLink{
+ 
+}
+
