@@ -84,7 +84,7 @@ function openModal(title, iframe){
 }
 $('document').ready(function(){
 	locationName = window.location.pathname;
-	locationName = locationName.replace('/', '');
+	locationName = locationName.replaceo/'/bio/', '');
 	locationName = locationName.replace('.html', '');
 	if(self != top){
 		$('document').ready(function(){
