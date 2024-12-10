@@ -1,0 +1,74 @@
+<html>
+    <head>
+        <title>Twister Zone</title>
+        <meta charset="UTF-8" />
+        <link rel="icon" type="image/x-icon" href="favicon.ico" />
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="apple-touch-icon.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="favicon-32x32.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="favicon-16x16.png"
+        />
+        <link rel="stylesheet" href="https://unpkg.com/98.css" />
+        <link rel="stylesheet" href="default.css" />
+    </head>
+    <body>
+        <div
+            class="desktop select-none flex flex-col items-center loading"
+            id="desktop"
+        >
+            <div style="height: 200px"></div>
+            <div class="window" style="width: 320px" id="loading">
+                <div class="title-bar">
+                    <div class="title-bar-text">Twister Zone</div>
+                </div>
+                <div class="window-body">
+                    <div class="flex items-center">
+                        <img
+                            src="drums.gif"
+                            alt="loading drums symbol"
+                            width="80px"
+                        />
+                        <div class="flex justify-center flex-col">
+                            <span class="inline-block">Loading Twister...</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="window hidden" style="width: 500px" id="consent">
+                <div class="title-bar">
+                    <div class="title-bar-text">Entering Twister Zone...</div>
+                </div>
+                <div class="window-body">
+                    <p>Warning: Loud</p>
+                    <div class="flex justify-center">
+                        <button onClick="play()" class="pointer">
+                            LOUDER!
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="window hidden" style="" id="game">
+                <div class="title-bar">
+                    <div class="title-bar-text">Twister</div>
+                </div>
+                <div class="window-body m-0">
+                    <div id="container" class="pointer"></div>
+                </div>
+            </div>
+        </div>
+        <script src="./default.js"></script>
+        <script src="./ruffle.js"></script>
+    </body>
+</html>

@@ -1,0 +1,42 @@
+html,
+body {
+    margin: 0;
+}
+.flex {
+    display: flex;
+}
+.items-center {
+    align-items: center;
+}
+.align-middle {
+    vertical-align: middle;
+}
+.justify-center {
+    justify-content: center;
+}
+.inline-block {
+    display: inline-block;
+}
+.flex-col {
+    flex-direction: column;
+}
+.hidden {
+    display: none;
+}
+.select-none {
+    user-select: none;
+}
+.pointer {
+    cursor: url("cursors/98.cur"), auto;
+}
+.loading {
+    cursor: url("cursors/loading.cur"), auto;
+}
+.desktop {
+    background-color: #00807f;
+    min-height: 100vh;
+    width: 100%;
+}
+.m-0 {
+    margin: 0;
+}
